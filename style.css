@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: magenta;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+
+}
+.name{
+    display: flex;
+    flex-direction:column ;
+
+}
+.email{
+    display: flex;
+    flex-direction:column ;
+
+}
+.password{
+    display: flex;
+    flex-direction:column ;
+
+}
+.password2{
+    display: flex;
+    flex-direction:column ;
+
+}
+input{
+    margin: 0px 0px 10px 0px;
+    height: 40px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+#submit-btn{
+    background: purple;
+}
+p{
+    color: red;
+}
